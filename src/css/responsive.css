@@ -1,0 +1,18 @@
+@media(max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container .support{
+        width: 340px;
+    }
+
+    .support .question,
+    .support .solution {
+        text-align: center;
+    }
+
+    .contact-us {
+        margin: 20px 0 0 0;
+    }
+}
