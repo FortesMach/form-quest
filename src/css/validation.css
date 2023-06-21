@@ -1,0 +1,13 @@
+/* Campo Valído */
+.form .item.valid .value {
+    border: 1px solid #00C22B
+}
+
+/* Campo Inválido */
+.form .item.invalid .value {
+    border: 1px solid #F52E2E
+}
+
+.form .item.invalid .missing-field {
+    opacity: 1;
+}

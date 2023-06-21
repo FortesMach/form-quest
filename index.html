@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/validation.css">
+    <title>HTML+CSS+JS Intermediario</title>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="support">
+            <h1 class="question">Ficou com dúvida? <br>Nos mande uma mensagem!</h1>
+            <p class="solution">Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</p>
+        </section>
+
+        <section class="contact-us">
+            <form class="form" action="" method="post">
+                <label class="item" for="name">
+                    <input name="name" type="text" class="value" placeholder="Nome completo *">
+                    <p class="missing-field">campo obrigatório</p>
+                </label>
+                <label class="item" for="email">
+                    <input name="email" type="email" class="value" placeholder="Email *">
+                    <p class="missing-field">campo obrigatório</p>
+                </label>
+                <label class="item" for="phone">
+                    <input name="phone" type="tel" class="value" placeholder="Telefone *">
+                    <p class="missing-field">campo obrigatório</p>
+                </label>
+                <label class="item" for="doubt">
+                    <textarea name="doubt" class="value doubt-message" placeholder="Mensagem *"></textarea>
+                    <p class="missing-field">campo obrigatório</p>
+                </label>
+                <span class="required-fields">*campos obrigatórios</span>
+                <label for="button">
+                    <input id="send-btn" type="button" value="Enviar">
+                </label>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="./src/js/formValidation.js"></script>
+
+</body>
+
+</html>
